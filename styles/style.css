@@ -1,3 +1,5 @@
+/* Common csss */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,12 @@
 
 .text-primary {
   color: var(--primary-color);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  max-width: 96%;
 }
 
 /* Header and Nav css */
@@ -124,4 +132,60 @@ nav ul li a {
 .image-sec img {
   margin-left: 140px;
   display: block;
+}
+
+/* About developer css */
+
+#about-devloper {
+  background-color: #fff8f3;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.info-developer {
+  margin: 130px 156px;
+}
+
+.info-developer h3 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info-developer p {
+  width: 830px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.information {
+  display: flex;
+  width: 780px;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0;
+}
+
+.filed-des span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.filed-des h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #474747;
 }
