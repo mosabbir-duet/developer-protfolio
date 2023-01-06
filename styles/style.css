@@ -140,13 +140,14 @@ nav ul li a {
   background-color: #fff8f3;
   overflow: hidden;
   border-radius: 10px;
+  margin-bottom: 120px;
 }
 
-.info-developer {
+.about-info {
   margin: 130px 156px;
 }
 
-.info-developer h3 {
+.info-dev-title {
   font-weight: 700;
   font-size: 35px;
   line-height: 48px;
@@ -154,9 +155,7 @@ nav ul li a {
   margin-bottom: 30px;
 }
 
-.info-developer p {
-  width: 830px;
-  font-family: "Open Sans";
+.info-dev-desc {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -168,24 +167,31 @@ nav ul li a {
 
 .information {
   display: flex;
-  width: 780px;
-  justify-content: space-between;
-  align-content: center;
-  margin: 0;
+  justify-content: space-around;
 }
-
-.filed-des span {
+.info-title {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #757575;
+  text-align: center;
 }
 
-.filed-des h4 {
+.info-desc {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   color: #474747;
+}
+
+/* What i do css */
+
+#what-i-do {
+  overflow: hidden;
+}
+
+.info-what-do {
+  margin: 0 156px;
 }
