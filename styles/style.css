@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f3f3f3;
+}
+
 :root {
   --primary-color: #fd6e0a;
 }
@@ -194,4 +198,103 @@ nav ul li a {
 
 .info-what-do {
   margin: 0 156px;
+}
+
+/* Skilled card css */
+
+#skill-section {
+  overflow: hidden;
+}
+
+.skill-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-card-item {
+  background-color: #fff;
+  width: 260px;
+  border-radius: 5px;
+  margin-bottom: 130px;
+}
+
+.skill-card-element {
+  padding-left: 20px;
+}
+.skill-card-element img {
+  margin: 30px 0;
+}
+
+.skill-card-info {
+  padding-right: 35px;
+}
+.skill-card-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+}
+
+.skill-card-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.skill-card-item:hover {
+  box-shadow: 4px 5px 10px #474747;
+  transition: 0.4s;
+}
+
+/* My resume css section */
+
+#my-resume-section {
+  overflow: hidden;
+}
+
+.info-education-experience {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.info-education {
+  max-width: 49%;
+}
+
+.education-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+
+.degree-title {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+}
+
+.institute-name {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #757575;
+}
+
+.degree-desc {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
+
+.btn-control {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
 }
